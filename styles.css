@@ -63,6 +63,7 @@ hr{
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
+    text-align: center;
 }
 
 .navigation .nav-brand {
@@ -92,7 +93,8 @@ hr{
 
 .hero .hero-heading {
     padding-top: 1rem;
-    color: var(--dark-gray)
+    color: var(--dark-gray);
+    text-align: center;
 }
 
 .hero .hero-heading .heading-inverted {
@@ -112,4 +114,19 @@ padding: 2rem;
     padding: 2rem;
     background-color: var(--off-white);
     border-bottom-left-radius: 1rem;
+}
+
+
+/**footer**/
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    border-radius: 1rem;
+    text-align: center;
+    color: white;
+}
+
+.footer .link {
+    color: white;
 }
